@@ -37,6 +37,7 @@ public class ManyItemsDeletePanel : MonoBehaviour
     {
         gameObject.SetActive(true);
         _text.text = $"{PanelMessage}{itemTitle}?";
+        _slider.value = _slider.minValue;
         _slider.maxValue = itemCount;
     }
 
